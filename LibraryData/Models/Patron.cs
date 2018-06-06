@@ -11,7 +11,7 @@ namespace LibraryData.Models
         public string LastName { get; set; }
         public string Address { get; set; }
         public DateTime DateOfBirth { get; set; }
-        public string TelefoneNumber { get; set; }
+        public string TelephoneNumber { get; set; }
         
         // foreign key
         public virtual LibraryCard LibraryCard { get; set; }

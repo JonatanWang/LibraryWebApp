@@ -202,7 +202,7 @@ namespace LibraryData.Migrations
 
                     b.Property<int?>("LibraryCardId");
 
-                    b.Property<string>("TelefoneNumber");
+                    b.Property<string>("TelephoneNumber");
 
                     b.HasKey("Id");
 
